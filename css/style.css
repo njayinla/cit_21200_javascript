@@ -1,0 +1,136 @@
+*  {
+    margin: 0;
+}
+
+html {
+    height: 120%;
+    background-color: orange;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 0px;
+    width: 100%;
+}
+nav{
+    min-height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #425467;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    }
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+}
+ nav h1{
+     text-align: center;
+     font-size: 50px;
+    color: white;
+}
+.home{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightgray;
+    color: red;
+
+}
+.lorem{
+    width: 100%;
+    margin: 0 auto;
+
+    color: black;
+}
+
+.pic{
+    margin-top: 10px;
+    height: 200px;
+
+}
+.footer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: white;
+    border-top: 2px solid black ;
+}
+nav div.mobileMenu{
+    display: none;
+    width: 50px;
+    height: 100px;
+    background-color: #efef0a;
+    cursor: pointer;
+    top: -10px;
+    left: 0;
+
+}
+div.footer h1  {
+    color: black;
+    text-align: center;
+}
+@media screen and (max-width:  799px) {
+
+    nav{
+        min-height: 60px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #425467;
+        color: white;
+        box-sizing: border-box;
+            }
+    nav div.mobileMenu{
+        display: block;
+        width: 70px;
+        height: 60px;
+        background-color: white;
+        border: 1px solid black ;
+        position: fixed;
+        cursor: pointer;
+        top: -2px;
+        left: 0;
+
+    }
+    .menu{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 120px;
+        height: 250px;
+        background-color: lightgray;
+        display: none;
+
+    }
+
+    nav h1{
+    display: none;
+    }
+
+    nav a{
+        display: none;
+    }
+
+   .wrapper{
+        box-sizing: border-box;
+        padding-top: 100px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+}
+
+
